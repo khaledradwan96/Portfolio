@@ -13,7 +13,7 @@ export default function Home() {
     }, [])
     return <>
         <div className='home'>
-            <div className="container flex justify-center items-center h-screen">
+            <div className="container mx-auto flex justify-center items-center h-screen">
                 <div className='content'>
                     <img src={avataars} width={250} alt="" />
                     <h3 className='text-2xl font-bold mt-5'>Khaled Radwan</h3>
@@ -25,7 +25,6 @@ export default function Home() {
                     <p>Graphic Artist - Web Designer - Illustrator</p>
                 </div>
             </div>
-
         </div>
     </>
 }

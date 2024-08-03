@@ -30,7 +30,7 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <div className='bg-teal-600 text-white text-center p-3'>
+            <div className='bg-gray-900 text-white text-center p-3'>
                 <p className='font-bold text-lg'>Coding with love ♡ by <span className='myName'>Khaled Radwan</span> @ August 2024</p>
                 <div className="mySocial">
                     <a href="https://github.com/khaledradwan96" target="_blank">
