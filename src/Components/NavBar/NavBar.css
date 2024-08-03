@@ -1,0 +1,30 @@
+.navBar {
+  background-color: #2c3e50;
+}
+.navBar .logo {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: bold;
+}
+.navBar ul {
+  transition: 0.3s;
+}
+.navBar ul a {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  padding: 0.25rem;
+  border-radius: 6px;
+  margin: 0.25rem 0.5rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+.navBar ul a.active {
+  background-color: #1abc9c;
+}
+
+.navBar i.fa-bars {
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.5rem;
+}
