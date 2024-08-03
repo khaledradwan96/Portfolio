@@ -1,17 +1,9 @@
 // NavBar.jsx
-/* eslint-disable no-unused-vars */
 
-import React , { useState , useEffect} from 'react'
 import './NavBar.css'
 import { NavLink } from 'react-router-dom'
-import About from '../About/About'
 
 export default function NavBar() {
-    const [Count, setCount] = useState(0)
-    useEffect(()=>{
-
-    }, [])
-
     function showNavLinks(){
         let navLinks = document.querySelector('.navBar .navLinks')
         navLinks.classList.toggle('hidden')

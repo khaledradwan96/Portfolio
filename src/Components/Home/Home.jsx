@@ -1,16 +1,9 @@
 // Home.jsx
-/* eslint-disable no-unused-vars */
 
-import React , { useState , useEffect} from 'react'
-import style from './Home.module.css'
 import './Home.css'
 import avataars from '../../assets/avataaars.svg'
 
 export default function Home() {
-    const [Count, setCount] = useState(0)
-    useEffect(()=>{
-
-    }, [])
     return <>
         <div className='home'>
             <div className="container mx-auto flex justify-center items-center h-screen">

@@ -1,9 +1,6 @@
 // Footer.jsx
-/* eslint-disable no-unused-vars */
 
-import React , { useState , useEffect} from 'react'
 import './footer.css'
-import style from './Footer.module.css'
 
 export default function Footer() {
     return <>
