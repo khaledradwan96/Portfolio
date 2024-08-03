@@ -1,0 +1,37 @@
+footer .myName {
+  cursor: pointer;
+  transition: 0.5;
+  position: relative;
+}
+footer .myName::before {
+  position: absolute;
+  content: "";
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #2c3e50;
+  transition: 0.3s;
+}
+footer .myName:hover::before {
+  width: 100%;
+}
+footer .mySocial a {
+  color: #fff;
+  transition: 0.5s;
+}
+footer .mySocial a:hover {
+  color: #2c3e50;
+  background-color: #fff;
+}
+footer .mySocial a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: #2c3e50;
+  border-radius: 50%;
+}

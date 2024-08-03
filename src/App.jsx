@@ -21,7 +21,6 @@ let router = createBrowserRouter([
 function App() {
   return <>
       <RouterProvider router={router}></RouterProvider>
-      <h1>app</h1>
     </>
 }
 
