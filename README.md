@@ -26,4 +26,4 @@
 
 ### [Live Demo](https://portfolio-no0jvyp55-khaled-radwans-projects.vercel.app/)
 
-### [Video Review]()
+### [Video Review](https://www.linkedin.com/posts/khaledradwan96_react-webdevelopment-portfolio-activity-7225910081131880449-hzHv?utm_source=share&utm_medium=member_desktop)
