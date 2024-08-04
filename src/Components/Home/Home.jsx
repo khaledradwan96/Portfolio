@@ -7,15 +7,17 @@ export default function Home() {
     return <>
         <div className='home'>
             <div className="container mx-auto flex justify-center items-center h-screen">
-                <div className='content'>
-                    <img src={avataars} width={250} alt="" />
-                    <h3 className='text-2xl font-bold mt-5'>Khaled Radwan</h3>
-                    <div className='starIcon'>
-                        <span></span>
-                        <i className='fa-solid fa-star'></i>
-                        <span></span>
+                <div>
+                    <div className='heading'>
+                        <img src={avataars} width={250} alt="" />
+                        <h3 className='text-2xl font-bold mt-5'>Khaled Radwan</h3>
+                        <div className='starIcon'>
+                            <span></span>
+                            <i className='fa-solid fa-star'></i>
+                            <span></span>
+                        </div>
                     </div>
-                    <p>Graphic Artist - Web Designer - Illustrator</p>
+                    <p className='text-white'>Graphic Artist - Web Designer - Illustrator</p>
                 </div>
             </div>
         </div>

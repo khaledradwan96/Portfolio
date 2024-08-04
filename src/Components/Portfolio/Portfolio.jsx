@@ -26,7 +26,7 @@ export default function Portfolio() {
                         <span></span>
                     </div>
                 </div>
-                    <div className='cards-group mt-5 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                    <div className='cards-group grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         <div className='card' onClick={()=> handleImageClick(poert1)}>
                             <img src={poert1} alt="" />
                             <div className='layer'>
