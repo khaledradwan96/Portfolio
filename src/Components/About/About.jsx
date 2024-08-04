@@ -1,11 +1,8 @@
 // About.jsx
 
-
-import './about.css'
-
 export default function About() {
     return <>
-        <div className='about'>
+        <div className='about' style={{backgroundColor: '#1abc9c'}}>
             <div className="container mx-auto p-4 flex justify-center items-center h-screen">
                 <div>
                     <div className='heading'>
