@@ -7,12 +7,12 @@ export default function Footer() {
         <footer>
             <div className='footer-body'>
                 <div className='card-group flex flex-col md:flex-row justify-center gap-10'>
-                    <div className="card md:w-1/3">
+                    <div className="card w-full md:w-1/3">
                         <h3>Location</h3>
                         <p>2215 John Daniel Drive</p>
                         <p>Clark, MO 65243</p>
                     </div>
-                    <div className="card md:w-1/3">
+                    <div className="card w-full md:w-1/3">
                         <h3>Around The Web</h3>
                         <div className='icons'>
                             <i className='fa-brands fa-facebook-f'></i>
@@ -21,7 +21,7 @@ export default function Footer() {
                             <i className='fa-solid fa-globe'></i>
                         </div>
                     </div>
-                    <div className="card md:w-1/3">
+                    <div className="card w-full md:w-1/3">
                         <h3>About freelancer</h3>
                         <p>Freelance is a free to use, licensed Bootstrap theme created by Route</p>
                     </div>
