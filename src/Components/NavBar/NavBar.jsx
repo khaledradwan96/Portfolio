@@ -9,7 +9,7 @@ export default function NavBar() {
         navLinks.classList.toggle('hidden')
     }
     return <>
-        <nav className='navBar md:fixed top-0 left-0 right-0'>
+        <nav className='navBar md:fixed top-0 left-0 right-0 z-50'>
             <div className='container p-4 mx-auto flex flex-row flex-wrap justify-between items-center'>
                 <div className='logo'>
                     <h3><NavLink to=''>Khaled Radwan</NavLink></h3>

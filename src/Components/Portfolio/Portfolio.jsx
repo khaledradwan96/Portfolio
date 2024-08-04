@@ -16,15 +16,16 @@ export default function Portfolio() {
         setFullScreenImg(null)
     }
     return <>
-        <div className='portfolio md:pt-20 h-screen'>
-            <div className="container p-4 mx-auto flex justify-center items-center">
-                <div className='content'>
+        <div className='portfolio md:pt-20 min-h-screen'>
+            <div className="container p-4 mx-auto">
+                <div className='heading'>
                     <h3 className='text-2xl font-bold mt-5'>Portfolio</h3>
                     <div className='starIcon'>
                         <span></span>
                         <i className='fa-solid fa-star'></i>
                         <span></span>
                     </div>
+                </div>
                     <div className='cards-group mt-5 grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                         <div className='card' onClick={()=> handleImageClick(poert1)}>
                             <img src={poert1} alt="" />
@@ -68,7 +69,6 @@ export default function Portfolio() {
                         <img src={fullScreenImg} alt="Full Screen" className='fullscreen-image' />
                     </div>
                 )}
-                </div>
             </div>
         </div>
     </>
